@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773D994F1EC304060047BBB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D994E1EC304060047BBB7 /* main.m */; };
+		773D99521EC304060047BBB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99511EC304060047BBB7 /* AppDelegate.m */; };
+		773D99551EC304060047BBB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99541EC304060047BBB7 /* ViewController.m */; };
+		773D99581EC304060047BBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773D99561EC304060047BBB7 /* Main.storyboard */; };
+		773D995A1EC304060047BBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773D99591EC304060047BBB7 /* Assets.xcassets */; };
+		773D995D1EC304060047BBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773D995B1EC304060047BBB7 /* LaunchScreen.storyboard */; };
+		773D99681EC304060047BBB7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99671EC304060047BBB7 /* _____Tests.m */; };
+		773D99731EC304060047BBB7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99721EC304060047BBB7 /* _____UITests.m */; };
+		773D99821EC304B30047BBB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D99811EC304B30047BBB7 /* AVFoundation.framework */; };
+		773D99991EC5AED40047BBB7 /* BeautifyFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99931EC5AED40047BBB7 /* BeautifyFilterViewController.m */; };
+		773D999A1EC5AED40047BBB7 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99961EC5AED40047BBB7 /* GPUImageBeautifyFilter.m */; };
+		773D999B1EC5AED40047BBB7 /* GPUImageFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D99981EC5AED40047BBB7 /* GPUImageFilterViewController.m */; };
+		773D999F1EC5AEDD0047BBB7 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D999E1EC5AEDD0047BBB7 /* CaptureViewController.m */; };
+		C5CE58639E80DFC41C402A20 /* libPods-音视频采集.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F445011184FC70D5C6DFC8 /* libPods-音视频采集.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773D99641EC304060047BBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773D99421EC304060047BBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773D99491EC304060047BBB7;
+			remoteInfo = "音视频采集";
+		};
+		773D996F1EC304060047BBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773D99421EC304060047BBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773D99491EC304060047BBB7;
+			remoteInfo = "音视频采集";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773D994A1EC304060047BBB7 /* 音视频采集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音视频采集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773D994E1EC304060047BBB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		773D99501EC304060047BBB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		773D99511EC304060047BBB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		773D99531EC304060047BBB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		773D99541EC304060047BBB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		773D99571EC304060047BBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773D99591EC304060047BBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773D995C1EC304060047BBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773D995E1EC304060047BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773D99631EC304060047BBB7 /* 音视频采集Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音视频采集Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773D99671EC304060047BBB7 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		773D99691EC304060047BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773D996E1EC304060047BBB7 /* 音视频采集UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音视频采集UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773D99721EC304060047BBB7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		773D99741EC304060047BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773D99811EC304B30047BBB7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		773D99891EC559510047BBB7 /* PublicFilter.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicFilter.pch; sourceTree = "<group>"; };
+		773D99921EC5AED40047BBB7 /* BeautifyFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautifyFilterViewController.h; sourceTree = "<group>"; };
+		773D99931EC5AED40047BBB7 /* BeautifyFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautifyFilterViewController.m; sourceTree = "<group>"; };
+		773D99951EC5AED40047BBB7 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		773D99961EC5AED40047BBB7 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		773D99971EC5AED40047BBB7 /* GPUImageFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFilterViewController.h; sourceTree = "<group>"; };
+		773D99981EC5AED40047BBB7 /* GPUImageFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFilterViewController.m; sourceTree = "<group>"; };
+		773D999D1EC5AEDD0047BBB7 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		773D999E1EC5AEDD0047BBB7 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		C9F445011184FC70D5C6DFC8 /* libPods-音视频采集.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音视频采集.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC16F0A80F43C67E6300709D /* Pods-音视频采集.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频采集.release.xcconfig"; path = "Pods/Target Support Files/Pods-音视频采集/Pods-音视频采集.release.xcconfig"; sourceTree = "<group>"; };
+		D4618AC36B1E1DEEF793C368 /* Pods-音视频采集.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频采集.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音视频采集/Pods-音视频采集.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773D99471EC304060047BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D99821EC304B30047BBB7 /* AVFoundation.framework in Frameworks */,
+				C5CE58639E80DFC41C402A20 /* libPods-音视频采集.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D99601EC304060047BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D996B1EC304060047BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773D99411EC304060047BBB7 = {
+			isa = PBXGroup;
+			children = (
+				773D994C1EC304060047BBB7 /* 音视频采集 */,
+				773D99661EC304060047BBB7 /* 音视频采集Tests */,
+				773D99711EC304060047BBB7 /* 音视频采集UITests */,
+				773D994B1EC304060047BBB7 /* Products */,
+				773D99801EC304B30047BBB7 /* Frameworks */,
+				F77EE7B6A1C5A20310C628ED /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		773D994B1EC304060047BBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773D994A1EC304060047BBB7 /* 音视频采集.app */,
+				773D99631EC304060047BBB7 /* 音视频采集Tests.xctest */,
+				773D996E1EC304060047BBB7 /* 音视频采集UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773D994C1EC304060047BBB7 /* 音视频采集 */ = {
+			isa = PBXGroup;
+			children = (
+				773D99A01EC5AFE30047BBB7 /* 编解码 */,
+				773D999C1EC5AEDD0047BBB7 /* 采集 */,
+				773D99911EC5AED40047BBB7 /* 美颜 */,
+				773D99501EC304060047BBB7 /* AppDelegate.h */,
+				773D99511EC304060047BBB7 /* AppDelegate.m */,
+				773D99531EC304060047BBB7 /* ViewController.h */,
+				773D99541EC304060047BBB7 /* ViewController.m */,
+				773D99891EC559510047BBB7 /* PublicFilter.pch */,
+				773D99561EC304060047BBB7 /* Main.storyboard */,
+				773D99591EC304060047BBB7 /* Assets.xcassets */,
+				773D995B1EC304060047BBB7 /* LaunchScreen.storyboard */,
+				773D995E1EC304060047BBB7 /* Info.plist */,
+				773D994D1EC304060047BBB7 /* Supporting Files */,
+			);
+			path = "音视频采集";
+			sourceTree = "<group>";
+		};
+		773D994D1EC304060047BBB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773D994E1EC304060047BBB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		773D99661EC304060047BBB7 /* 音视频采集Tests */ = {
+			isa = PBXGroup;
+			children = (
+				773D99671EC304060047BBB7 /* _____Tests.m */,
+				773D99691EC304060047BBB7 /* Info.plist */,
+			);
+			path = "音视频采集Tests";
+			sourceTree = "<group>";
+		};
+		773D99711EC304060047BBB7 /* 音视频采集UITests */ = {
+			isa = PBXGroup;
+			children = (
+				773D99721EC304060047BBB7 /* _____UITests.m */,
+				773D99741EC304060047BBB7 /* Info.plist */,
+			);
+			path = "音视频采集UITests";
+			sourceTree = "<group>";
+		};
+		773D99801EC304B30047BBB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				773D99811EC304B30047BBB7 /* AVFoundation.framework */,
+				C9F445011184FC70D5C6DFC8 /* libPods-音视频采集.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		773D99911EC5AED40047BBB7 /* 美颜 */ = {
+			isa = PBXGroup;
+			children = (
+				773D99941EC5AED40047BBB7 /* GPUImageBeautifyFilter */,
+				773D99921EC5AED40047BBB7 /* BeautifyFilterViewController.h */,
+				773D99931EC5AED40047BBB7 /* BeautifyFilterViewController.m */,
+				773D99971EC5AED40047BBB7 /* GPUImageFilterViewController.h */,
+				773D99981EC5AED40047BBB7 /* GPUImageFilterViewController.m */,
+			);
+			path = "美颜";
+			sourceTree = "<group>";
+		};
+		773D99941EC5AED40047BBB7 /* GPUImageBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				773D99951EC5AED40047BBB7 /* GPUImageBeautifyFilter.h */,
+				773D99961EC5AED40047BBB7 /* GPUImageBeautifyFilter.m */,
+			);
+			path = GPUImageBeautifyFilter;
+			sourceTree = "<group>";
+		};
+		773D999C1EC5AEDD0047BBB7 /* 采集 */ = {
+			isa = PBXGroup;
+			children = (
+				773D999D1EC5AEDD0047BBB7 /* CaptureViewController.h */,
+				773D999E1EC5AEDD0047BBB7 /* CaptureViewController.m */,
+			);
+			path = "采集";
+			sourceTree = "<group>";
+		};
+		773D99A01EC5AFE30047BBB7 /* 编解码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "编解码";
+			sourceTree = "<group>";
+		};
+		F77EE7B6A1C5A20310C628ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4618AC36B1E1DEEF793C368 /* Pods-音视频采集.debug.xcconfig */,
+				CC16F0A80F43C67E6300709D /* Pods-音视频采集.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773D99491EC304060047BBB7 /* 音视频采集 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D99771EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集" */;
+			buildPhases = (
+				F58D30217E00E5152BB46F20 /* [CP] Check Pods Manifest.lock */,
+				773D99461EC304060047BBB7 /* Sources */,
+				773D99471EC304060047BBB7 /* Frameworks */,
+				773D99481EC304060047BBB7 /* Resources */,
+				8A1B484689E89006F6039BE7 /* [CP] Embed Pods Frameworks */,
+				0940B86424EB47E8A337C7CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音视频采集";
+			productName = "音视频采集";
+			productReference = 773D994A1EC304060047BBB7 /* 音视频采集.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773D99621EC304060047BBB7 /* 音视频采集Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D997A1EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集Tests" */;
+			buildPhases = (
+				773D995F1EC304060047BBB7 /* Sources */,
+				773D99601EC304060047BBB7 /* Frameworks */,
+				773D99611EC304060047BBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773D99651EC304060047BBB7 /* PBXTargetDependency */,
+			);
+			name = "音视频采集Tests";
+			productName = "音视频采集Tests";
+			productReference = 773D99631EC304060047BBB7 /* 音视频采集Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773D996D1EC304060047BBB7 /* 音视频采集UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D997D1EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集UITests" */;
+			buildPhases = (
+				773D996A1EC304060047BBB7 /* Sources */,
+				773D996B1EC304060047BBB7 /* Frameworks */,
+				773D996C1EC304060047BBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773D99701EC304060047BBB7 /* PBXTargetDependency */,
+			);
+			name = "音视频采集UITests";
+			productName = "音视频采集UITests";
+			productReference = 773D996E1EC304060047BBB7 /* 音视频采集UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773D99421EC304060047BBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = renyanping;
+				TargetAttributes = {
+					773D99491EC304060047BBB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3A95R2NH97;
+						ProvisioningStyle = Automatic;
+					};
+					773D99621EC304060047BBB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 773D99491EC304060047BBB7;
+					};
+					773D996D1EC304060047BBB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 773D99491EC304060047BBB7;
+					};
+				};
+			};
+			buildConfigurationList = 773D99451EC304060047BBB7 /* Build configuration list for PBXProject "音视频采集" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773D99411EC304060047BBB7;
+			productRefGroup = 773D994B1EC304060047BBB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773D99491EC304060047BBB7 /* 音视频采集 */,
+				773D99621EC304060047BBB7 /* 音视频采集Tests */,
+				773D996D1EC304060047BBB7 /* 音视频采集UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773D99481EC304060047BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D995D1EC304060047BBB7 /* LaunchScreen.storyboard in Resources */,
+				773D995A1EC304060047BBB7 /* Assets.xcassets in Resources */,
+				773D99581EC304060047BBB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D99611EC304060047BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D996C1EC304060047BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0940B86424EB47E8A337C7CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频采集/Pods-音视频采集-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1B484689E89006F6039BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频采集/Pods-音视频采集-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58D30217E00E5152BB46F20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773D99461EC304060047BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D999A1EC5AED40047BBB7 /* GPUImageBeautifyFilter.m in Sources */,
+				773D99551EC304060047BBB7 /* ViewController.m in Sources */,
+				773D99521EC304060047BBB7 /* AppDelegate.m in Sources */,
+				773D994F1EC304060047BBB7 /* main.m in Sources */,
+				773D999F1EC5AEDD0047BBB7 /* CaptureViewController.m in Sources */,
+				773D99991EC5AED40047BBB7 /* BeautifyFilterViewController.m in Sources */,
+				773D999B1EC5AED40047BBB7 /* GPUImageFilterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D995F1EC304060047BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D99681EC304060047BBB7 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773D996A1EC304060047BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D99731EC304060047BBB7 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773D99651EC304060047BBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773D99491EC304060047BBB7 /* 音视频采集 */;
+			targetProxy = 773D99641EC304060047BBB7 /* PBXContainerItemProxy */;
+		};
+		773D99701EC304060047BBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773D99491EC304060047BBB7 /* 音视频采集 */;
+			targetProxy = 773D996F1EC304060047BBB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773D99561EC304060047BBB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773D99571EC304060047BBB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		773D995B1EC304060047BBB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773D995C1EC304060047BBB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773D99751EC304060047BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773D99761EC304060047BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773D99781EC304060047BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4618AC36B1E1DEEF793C368 /* Pods-音视频采集.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A95R2NH97;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/音视频采集/PublicFilter.pch";
+				INFOPLIST_FILE = "音视频采集/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		773D99791EC304060047BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC16F0A80F43C67E6300709D /* Pods-音视频采集.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A95R2NH97;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/音视频采集/PublicFilter.pch";
+				INFOPLIST_FILE = "音视频采集/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		773D997B1EC304060047BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "音视频采集Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音视频采集.app/音视频采集";
+			};
+			name = Debug;
+		};
+		773D997C1EC304060047BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "音视频采集Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音视频采集.app/音视频采集";
+			};
+			name = Release;
+		};
+		773D997E1EC304060047BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "音视频采集UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音视频采集";
+			};
+			name = Debug;
+		};
+		773D997F1EC304060047BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "音视频采集UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "szjy.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音视频采集";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773D99451EC304060047BBB7 /* Build configuration list for PBXProject "音视频采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D99751EC304060047BBB7 /* Debug */,
+				773D99761EC304060047BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D99771EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D99781EC304060047BBB7 /* Debug */,
+				773D99791EC304060047BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D997A1EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D997B1EC304060047BBB7 /* Debug */,
+				773D997C1EC304060047BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D997D1EC304060047BBB7 /* Build configuration list for PBXNativeTarget "音视频采集UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D997E1EC304060047BBB7 /* Debug */,
+				773D997F1EC304060047BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773D99421EC304060047BBB7 /* Project object */;
+}
